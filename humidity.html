@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Humidity</title>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="webresources/css/viterbi.css"/>
+  <link rel="stylesheet" type="text/css" href="webresources/css/weather.css">
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+
+  <div class="container">
+
+      <div class="row">
+          <div class="col-sm-4 cardinal">
+            <img src="https://vsoeapp1.vsoe.usc.edu/images/USC-Bar-cardinal.gif">
+          </div>
+          <div class="col-sm-4 cardinal">
+            <br/>
+            <a href="index.html" style="color:white"><h2 class="white">Latitude</h2></a>
+          </div>
+          <p>
+            <div class="col-sm-1 cardinal">
+              <div class="dropdown">
+                <p></p>
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="background-color:#990000">Plots
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a style="color:#990000" href="temperature.html">Temperature</a>
+                  </li>
+                  <li>
+                    <a style="color:#990000" href="humidity.html">Humidity</a>
+                  </li>
+                  <li>
+                    <a style="color:#990000" href="wind.html">Wind</a>
+                  </li>
+                  <li>
+                    <a style="color:#990000" href="cloudiness.html">Cloudiness</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </p>
+          <div class="col-sm-2 cardinal">
+            <br/>
+            <p class="white">
+              <a href="comparison.html" style="color:white">Comparison</a>
+            </p>
+          </div>
+          <div class="col-sm-1 cardinal">
+            <br/>
+            <p class="white">
+              <a href="data.html" style="color:white">Data</a>
+            </p>
+          </div>
+        </div>
+
+    <div class="row">
+      <div class="col-sm-12 lightgrey">
+        <p> </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-7 lightgrey">
+        <div class="white vertical-align-middle"> 
+
+          <h3>Humidity</h3>
+          <p><img alt="Humidity" src="webresources/images/humidity.png" width="600" height="300"></p>
+
+          <p>
+            There appears to be no obvious correlation between humidity and latitude.
+            This maybe due to the northern hemisphere in a rainy season.
+            In fact, at University of Southern California this was one of the few
+            days of rain for the year.
+          </p>
+              
+        </div>
+      </div>
+      <div class="col-sm-5 lightgrey">
+          <div class="white">
+            <h3>Visualizations</h3>
+            <table class="table">
+              <tr>
+                <td><a href="temperature.html"><img alt="Temperature" src="webresources/images/temperature.png" width="200" height="150"></a></td>
+                <td><a href="cloudiness.html"><img alt="Cloudiness" src="webresources/images/cloudiness.png" width="200" height="150"></a></td>
+              </tr>
+              <tr>
+                  <td><a href="humidity.html"><img alt="Humidity" src="webresources/images/humidity.png" width="200" height="150"></a></td>
+                  <td><a href="wind.html"><img alt="Wind" src="webresources/images/wind.png" width="200" height="150"></a></td>
+                </tr>
+            </table>
+          </div>
+        </div>
+        
+  </div>
+
+</body>
+
+</html>

@@ -12,6 +12,10 @@ body
 
 h1, h2, h3, h4 {color: #990000;}  /* Cardinal */
 
+div.cardinal {background-color: #990000;}  /* Cardinal */
+
+button.cardinal {color: #990000;}  /* Cardinal */
+
 iframe.banner
 {
     border-color: transparent ;

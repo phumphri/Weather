@@ -1,0 +1,16 @@
+div.lightgrey {background-color: lightgrey;} 
+div.white {background-color: white;} 
+div.blue {background-color: blue;} 
+div.red {background-color: red;} 
+div.ivory {background-color:fffff0;}
+
+img.float_left{float: left;}
+
+div.vertical-align-middle {vertical-align: middle}
+div.text-align-center {text-align: center;}
+div.overflow-scroll {overflow: scroll; height: 400px}
+
+th.text-align-center {text-align: center;}
+
+p.white {color: white;}
+h2.white {color: white;}

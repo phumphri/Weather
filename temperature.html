@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Weather</title>
+  <title>Temperature</title>
   <meta charset="utf-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +27,9 @@
       </div>
       <div class="col-sm-4 cardinal">
         <br/>
-        <a href="index.html" style="color:white"><h2 class="white">Latitude</h2></a>
+        <a href="index.html" style="color:white">
+          <h2 class="white">Latitude</h2>
+        </a>
       </div>
       <p>
         <div class="col-sm-1 cardinal">
@@ -77,16 +79,26 @@
       <div class="col-sm-7 lightgrey">
         <div class="white vertical-align-middle">
 
-          <h3>Summary: Latitude vs. X</h3>
+          <h3>Max Temperature</h3>
           <p>
-            <img class="float-left" alt="Temperature" src="webresources/images/temperature.png" width="400" height="300"> The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish
-            this analysis, weather we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities</p>
-
-          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitue. Factors we
-            looked at included temperature, cloudiness, wind speed, and humidity. This site provides the source data and
-            visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations
-            wintnessed.
+            <img alt="Temperature" src="webresources/images/temperature.png" width="600" height="300">
           </p>
+
+          <p>
+            As expected, the weather becomes significantly warmer as one approaches the equator.
+          </p>
+          <p>
+            More interesting, however, is that the fact the southern hemisphere tends to be warmer this time of year than the northern
+            hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.
+          </p>
+          <p>
+            The southern-most city is at a southern latitude of 54 degrees. Data ends at that latitude. Also there are no readings for
+            cities located in the Arctic and Antarctic.
+            <p>
+              The University of Southern California is in a temperate zone, close to the Tropic of Cancer. The mild climate on the campus
+              is because of this latitude and close proximity to the Pacific Ocean.
+            </p>
+
         </div>
       </div>
 
@@ -121,8 +133,8 @@
           </table>
         </div>
       </div>
+
     </div>
-  </div>
 
 </body>
 
