@@ -1,8 +1,12 @@
+
+a.white {color: white;}
+a.cardinal {color:#990000;} /* cardinal */
+
 div.lightgrey {background-color: lightgrey;} 
 div.white {background-color: white;} 
 div.blue {background-color: blue;} 
 div.red {background-color: red;} 
-div.ivory {background-color:fffff0;}
+div.ivory {background-color:#fffff0;}
 
 img.float_left{float: left;}
 
