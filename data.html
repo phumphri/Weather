@@ -24,52 +24,66 @@
 
     <div class="container">
 
+
+        <!-- Add padding to top of Latitude Banner. -->
+        <div class="row cardinal">
+            <p> </p>
+        </div>
+
+        <!-- Latitude Banner -->
         <div class="row">
-            <div class="col-sm-4 cardinal">
+
+            <!-- USC Logo  -->
+            <div class="col-sm-5 cardinal">
                 <img src="https://vsoeapp1.vsoe.usc.edu/images/USC-Bar-cardinal.gif">
             </div>
+
+            <!-- Latitude Title returns to index.html. -->
             <div class="col-sm-4 cardinal">
-                <br/>
-                <a href="index.html" style="color:white">
+                <a href="index.html" class="white">
                     <h2 class="white">Latitude</h2>
                 </a>
             </div>
-            <p>
-                <div class="col-sm-1 cardinal">
-                    <div class="dropdown">
-                        <p></p>
-                        <button class="btn btn-primary dropdown-toggle background-cardinal" type="button" data-toggle="dropdown">Plots
-                            <span class="caret"></span>
-                          </button>
-                                      <ul class="dropdown-menu">
-                            <li>
-                                <a class="cardinal"  href="temperature.html">Temperature</a>
-                            </li>
-                            <li>
-                                <a class="cardinal"  href="humidity.html">Humidity</a>
-                            </li>
-                            <li>
-                                <a class="cardinal"  href="wind.html">Wind</a>
-                            </li>
-                            <li>
-                                <a class="cardinal"  href="cloudiness.html">Cloudiness</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </p>
-            <div class="col-sm-2 cardinal">
-                <br/>
-                <p class="white">
-                    <a href="comparison.html" style="color:white">Comparison</a>
-                </p>
-            </div>
+
+            <!-- Plots dropdown list box for navigating to the plots pages. -->
             <div class="col-sm-1 cardinal">
-                <br/>
-                <p class="white">
-                    <a href="data.html" style="color:white">Data</a>
-                </p>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle background-cardinal" type="button" data-toggle="dropdown">Plots
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="cardinal" href="temperature.html">Temperature</a>
+                        </li>
+                        <li>
+                            <a class="cardinal" href="humidity.html">Humidity</a>
+                        </li>
+                        <li>
+                            <a class="cardinal" href="wind.html">Wind</a>
+                        </li>
+                        <li>
+                            <a class="cardinal" href="cloudiness.html">Cloudiness</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+
+            <!-- Link to the Comparison Page. -->
+            <div class="col-sm-1 cardinal">
+                <a href="comparison.html" class="white">Compare</a>
+            </div>
+
+            <!-- Link to the Data Page. -->
+            <div class="col-sm-1 cardinal">
+                <a href="data.html" class="white">Data</a>
+            </div>
+
+            <!-- End of Latitude Banner. -->
+        </div>
+
+        <!-- Add padding to the bottom of the Latitude Banner. -->
+        <div class="row cardinal">
+            <p> </p>
         </div>
 
         <div class="table-responsive">

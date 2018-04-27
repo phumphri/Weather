@@ -21,69 +21,74 @@
 
   <div class="container">
 
+    <!-- Add padding to top of Latitude Banner. -->
+    <div class="row cardinal">
+      <p> </p>
+    </div>
+
+    <!-- Latitude Banner -->
     <div class="row">
-      <div class="col-sm-4 cardinal">
+
+      <!-- USC Logo  -->
+      <div class="col-sm-5 cardinal">
         <img src="https://vsoeapp1.vsoe.usc.edu/images/USC-Bar-cardinal.gif">
       </div>
+
+      <!-- Latitude Title returns to index.html. -->
       <div class="col-sm-4 cardinal">
-        <br/>
         <a href="index.html" class="white">
           <h2 class="white">Latitude</h2>
         </a>
       </div>
-      <p>
-        <div class="col-sm-1 cardinal">
-          <div class="dropdown">
-            <p></p>
-            <button class="btn btn-primary dropdown-toggle background-cardinal" type="button" data-toggle="dropdown">Plots
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-              <li>
-                <a class="cardinal" href="temperature.html">Temperature</a>
-              </li>
-              <li>
-                <a class="cardinal" href="humidity.html">Humidity</a>
-              </li>
-              <li>
-                <a class="cardinal" href="wind.html">Wind</a>
-              </li>
-              <li>
-                <a class="cardinal" href="cloudiness.html">Cloudiness</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </p>
-      <div class="col-sm-2 cardinal">
-        <br/>
-        <p class="white">
-          <a href="comparison.html" style="color:white">Comparison</a>
-        </p>
-      </div>
+
+      <!-- Plots dropdown list box for navigating to the plots pages. -->
       <div class="col-sm-1 cardinal">
-        <br/>
-        <p class="white">
-          <a href="data.html" style="color:white">Data</a>
-        </p>
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle background-cardinal" type="button" data-toggle="dropdown">Plots
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="cardinal" href="temperature.html">Temperature</a>
+            </li>
+            <li>
+              <a class="cardinal" href="humidity.html">Humidity</a>
+            </li>
+            <li>
+              <a class="cardinal" href="wind.html">Wind</a>
+            </li>
+            <li>
+              <a class="cardinal" href="cloudiness.html">Cloudiness</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="col-sm-12 lightgrey">
-        <p> </p>
+      <!-- Link to the Comparison Page. -->
+      <div class="col-sm-1 cardinal">
+        <a href="comparison.html" class="white">Compare</a>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="col-sm-7 lightgrey">
-        <div class="white vertical-align-middle">
+      <!-- Link to the Data Page. -->
+      <div class="col-sm-1 cardinal">
+        <a href="data.html" class="white">Data</a>
+      </div>
 
+    <!-- End of Latitude Banner. -->
+    </div> 
+
+    <!-- Add padding to the bottom of the Latitude Banner. -->
+    <div class="row cardinal"><p> </p></div>
+
+    <!-- Add padding to the top of the display area. -->
+    <div class="row lightgrey"><p> </p></div>
+
+    <!-- Cloudiness Analysis  -->
+    <div class="row lightgrey">
+      <div class="col-sm-7">
+        <div class="white">
           <h3>Cloudiness</h3>
-          <p>
             <img alt="Cloudiness" src="webresources/images/cloudiness.png" width="600" height="300">
-          </p>
-          <br/>
           <p>
             As with humidity, there appears to be no correlation between latitude and cloudiness. Note that most readings show a clear
             sky. Since this was day of rain at the University of Sourthern California, the normally clear skys were filled
@@ -92,7 +97,7 @@
         </div>
       </div>
 
-      <div class="col-sm-5 lightgrey">
+      <div class="col-sm-5">
         <div class="table-responsive white">
           <h3>Visualizations</h3>
           <table class="table">
