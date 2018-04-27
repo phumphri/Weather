@@ -12,3 +12,6 @@ div.ivory {background-color:#fffff0;}
 
 /* heading color attributes */
 h2.white {color: white;}
+
+
+img.boffo {height: 100%; width: 100%; object-fit:contain}

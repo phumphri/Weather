@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Humidity</title>
   <meta charset="utf-8">
@@ -7,118 +8,146 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="webresources/css/viterbi.css"/>
+  <link rel="stylesheet" type="text/css" href="webresources/css/viterbi.css" />
   <link rel="stylesheet" type="text/css" href="webresources/css/weather.css">
 
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-  
+
 </head>
+
 <body>
 
   <div class="container">
 
- 
+
     <!-- Add padding to top of Latitude Banner. -->
     <div class="row cardinal">
-        <p> </p>
+      <p> </p>
+    </div>
+
+    <!-- Latitude Banner -->
+    <div class="row">
+
+      <!-- USC Logo  -->
+      <div class="col-sm-5 cardinal">
+        <img src="https://vsoeapp1.vsoe.usc.edu/images/USC-Bar-cardinal.gif">
       </div>
-  
-      <!-- Latitude Banner -->
-      <div class="row">
-  
-        <!-- USC Logo  -->
-        <div class="col-sm-5 cardinal">
-          <img src="https://vsoeapp1.vsoe.usc.edu/images/USC-Bar-cardinal.gif">
+
+      <!-- Latitude Title returns to index.html. -->
+      <div class="col-sm-4 cardinal">
+        <a href="index.html" class="white">
+          <h2 class="white">Latitude</h2>
+        </a>
+      </div>
+
+      <!-- Plots dropdown list box for navigating to the plots pages. -->
+      <div class="col-sm-1 cardinal">
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle background-cardinal" type="button" data-toggle="dropdown">Plots
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="cardinal" href="temperature.html">Temperature</a>
+            </li>
+            <li>
+              <a class="cardinal" href="humidity.html">Humidity</a>
+            </li>
+            <li>
+              <a class="cardinal" href="wind.html">Wind</a>
+            </li>
+            <li>
+              <a class="cardinal" href="cloudiness.html">Cloudiness</a>
+            </li>
+          </ul>
         </div>
-  
-        <!-- Latitude Title returns to index.html. -->
-        <div class="col-sm-4 cardinal">
-          <a href="index.html" class="white">
-            <h2 class="white">Latitude</h2>
-          </a>
-        </div>
-  
-        <!-- Plots dropdown list box for navigating to the plots pages. -->
-        <div class="col-sm-1 cardinal">
-          <div class="dropdown">
-            <button class="btn btn-primary dropdown-toggle background-cardinal" type="button" data-toggle="dropdown">Plots
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-              <li>
-                <a class="cardinal" href="temperature.html">Temperature</a>
-              </li>
-              <li>
-                <a class="cardinal" href="humidity.html">Humidity</a>
-              </li>
-              <li>
-                <a class="cardinal" href="wind.html">Wind</a>
-              </li>
-              <li>
-                <a class="cardinal" href="cloudiness.html">Cloudiness</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-  
-        <!-- Link to the Comparison Page. -->
-        <div class="col-sm-1 cardinal">
-          <a href="comparison.html" class="white">Compare</a>
-        </div>
-  
-        <!-- Link to the Data Page. -->
-        <div class="col-sm-1 cardinal">
-          <a href="data.html" class="white">Data</a>
-        </div>
-  
+      </div>
+
+      <!-- Link to the Comparison Page. -->
+      <div class="col-sm-1 cardinal">
+        <a href="comparison.html" class="white">Compare</a>
+      </div>
+
+      <!-- Link to the Data Page. -->
+      <div class="col-sm-1 cardinal">
+        <a href="data.html" class="white">Data</a>
+      </div>
+
       <!-- End of Latitude Banner. -->
-      </div> 
-  
-      <!-- Add padding to the bottom of the Latitude Banner. -->
-      <div class="row cardinal"><p> </p></div>
-  
+    </div>
+
+    <!-- Add padding to the bottom of the Latitude Banner. -->
+    <div class="row cardinal">
+      <p> </p>
+    </div>
+
     <div class="row">
       <div class="col-sm-12 lightgrey">
         <p> </p>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-sm-7 lightgrey">
-        <div class="white vertical-align-middle"> 
+    <div class="row lightgrey">
+      <div class="col-sm-7">
+        <div class="white vertical-align-middle">
 
           <h3>Humidity</h3>
-          <p><img alt="Humidity" src="webresources/images/humidity.png" width="600" height="300"></p>
+          <p>
+            <img class="boffo" alt="Humidity" src="webresources/images/humidity.png">
+          </p>
 
           <p>
-            There appears to be no obvious correlation between humidity and latitude.
-            This maybe due to the northern hemisphere in a rainy season.
-            In fact, at University of Southern California this was one of the few
-            days of rain for the year.
+            There appears to be no obvious correlation between humidity and latitude. This maybe due to the northern hemisphere in a
+            rainy season. In fact, at University of Southern California this was one of the few days of rain for the year.
           </p>
-              
+
         </div>
       </div>
-      <div class="col-sm-5 lightgrey">
-          <div class="table-responsive white">
-            <h3>Visualizations</h3>
-            <table class="table">
-              <tr>
-                <td><a href="temperature.html"><img alt="Temperature" src="webresources/images/temperature.png" width="200" height="150"></a></td>
-                <td><a href="cloudiness.html"><img alt="Cloudiness" src="webresources/images/cloudiness.png" width="200" height="150"></a></td>
-              </tr>
-              <tr>
-                  <td><a href="humidity.html"><img alt="Humidity" src="webresources/images/humidity.png" width="200" height="150"></a></td>
-                  <td><a href="wind.html"><img alt="Wind" src="webresources/images/wind.png" width="200" height="150"></a></td>
-                </tr>
-            </table>
-          </div>
+
+      <!-- Visualizations -->
+      <div class="col-sm-5">
+        <div class="table-responsive white">
+          <h3>Visualizations</h3>
+          <table class="table">
+            <tr>
+              <td>
+                <a href="temperature.html">
+                  <img class="img-thumbnail" alt="Temperature" src="webresources/images/temperature.png">
+                </a>
+              </td>
+              <td>
+                <a href="cloudiness.html">
+                  <img class="img-thumbnail" alt="Cloudiness" src="webresources/images/cloudiness.png">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="humidity.html">
+                  <img class="img-thumbnail" alt="Humidity" src="webresources/images/humidity.png">
+                </a>
+              </td>
+              <td>
+                <a href="wind.html">
+                  <img class="img-thumbnail" alt="Wind" src="webresources/images/wind.png">
+                </a>
+              </td>
+            </tr>
+          </table>
         </div>
-        
+
+        <!-- Visualizations -->
+      </div>
+
+      <!-- Row -->
+    </div>
+
+    <!-- Container -->
   </div>
+
 
 </body>
 
